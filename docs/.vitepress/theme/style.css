@@ -1,0 +1,36 @@
+:root {
+  --vp-c-brand-1: #bd34fe;
+  --vp-c-brand-2: #41d1ff;
+  --vp-c-brand-3: #bd34fe;
+}
+
+.VPImage.image-src {
+  filter: drop-shadow(0 0 40px rgba(189, 52, 254, 0.5));
+  transition: transform 0.5s ease;
+}
+
+.VPImage.image-src:hover {
+  transform: scale(1.05) rotate(5deg);
+}
+
+.VPHomeHero .name {
+  background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.VPHomeHero .tagline {
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+
+.VPFeature {
+  border: 1px solid var(--vp-c-bg-soft);
+  transition: all 0.3s ease;
+}
+
+.VPFeature:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}

@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // ⚠️⚠️⚠️【重要】发布前请务必修改这里的域名 ⚠️⚠️⚠️
 // 将下方链接替换为您实际部署的域名（不需要末尾斜杠）
-const hostname = 'https://clawdbot-guide.com'
+const hostname = 'https://clawdbot-guide.nodfe.cn'
 
 export default defineConfig({
   title: "Clawdbot 技术解析",
